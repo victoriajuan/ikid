@@ -14,6 +14,15 @@
 		584999A21EB193180096D9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584999A01EB193180096D9BA /* LaunchScreen.storyboard */; };
 		584999AD1EB193180096D9BA /* ikidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999AC1EB193180096D9BA /* ikidTests.swift */; };
 		584999B81EB193180096D9BA /* ikidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999B71EB193180096D9BA /* ikidUITests.swift */; };
+		584999C61EB267840096D9BA /* GoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999C51EB267840096D9BA /* GoodViewController.swift */; };
+		584999C81EB267A50096D9BA /* PunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999C71EB267A50096D9BA /* PunViewController.swift */; };
+		584999CA1EB267B30096D9BA /* DadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999C91EB267B30096D9BA /* DadViewController.swift */; };
+		584999CC1EB26AEA0096D9BA /* GoodFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999CB1EB26AEA0096D9BA /* GoodFirstViewController.swift */; };
+		584999CE1EB26AFF0096D9BA /* GoodSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999CD1EB26AFF0096D9BA /* GoodSecondViewController.swift */; };
+		584999D01EB26B0F0096D9BA /* PunFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999CF1EB26B0F0096D9BA /* PunFirstViewController.swift */; };
+		584999D21EB26B1D0096D9BA /* PunSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999D11EB26B1D0096D9BA /* PunSecondViewController.swift */; };
+		584999D41EB26B520096D9BA /* DadFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999D31EB26B520096D9BA /* DadFirstViewController.swift */; };
+		584999D61EB26B6A0096D9BA /* DadSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999D51EB26B6A0096D9BA /* DadSecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		584999B31EB193180096D9BA /* ikidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ikidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		584999B71EB193180096D9BA /* ikidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikidUITests.swift; sourceTree = "<group>"; };
 		584999B91EB193180096D9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584999C51EB267840096D9BA /* GoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodViewController.swift; sourceTree = "<group>"; };
+		584999C71EB267A50096D9BA /* PunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunViewController.swift; sourceTree = "<group>"; };
+		584999C91EB267B30096D9BA /* DadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadViewController.swift; sourceTree = "<group>"; };
+		584999CB1EB26AEA0096D9BA /* GoodFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodFirstViewController.swift; sourceTree = "<group>"; };
+		584999CD1EB26AFF0096D9BA /* GoodSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodSecondViewController.swift; sourceTree = "<group>"; };
+		584999CF1EB26B0F0096D9BA /* PunFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunFirstViewController.swift; sourceTree = "<group>"; };
+		584999D11EB26B1D0096D9BA /* PunSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunSecondViewController.swift; sourceTree = "<group>"; };
+		584999D31EB26B520096D9BA /* DadFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadFirstViewController.swift; sourceTree = "<group>"; };
+		584999D51EB26B6A0096D9BA /* DadSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadSecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +121,15 @@
 				5849999E1EB193180096D9BA /* Assets.xcassets */,
 				584999A01EB193180096D9BA /* LaunchScreen.storyboard */,
 				584999A31EB193180096D9BA /* Info.plist */,
+				584999C51EB267840096D9BA /* GoodViewController.swift */,
+				584999CB1EB26AEA0096D9BA /* GoodFirstViewController.swift */,
+				584999CD1EB26AFF0096D9BA /* GoodSecondViewController.swift */,
+				584999CF1EB26B0F0096D9BA /* PunFirstViewController.swift */,
+				584999D11EB26B1D0096D9BA /* PunSecondViewController.swift */,
+				584999D31EB26B520096D9BA /* DadFirstViewController.swift */,
+				584999C71EB267A50096D9BA /* PunViewController.swift */,
+				584999C91EB267B30096D9BA /* DadViewController.swift */,
+				584999D51EB26B6A0096D9BA /* DadSecondViewController.swift */,
 			);
 			path = ikid;
 			sourceTree = "<group>";
@@ -262,8 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				584999D21EB26B1D0096D9BA /* PunSecondViewController.swift in Sources */,
+				584999C81EB267A50096D9BA /* PunViewController.swift in Sources */,
+				584999D01EB26B0F0096D9BA /* PunFirstViewController.swift in Sources */,
 				5849999A1EB193180096D9BA /* ViewController.swift in Sources */,
+				584999D61EB26B6A0096D9BA /* DadSecondViewController.swift in Sources */,
+				584999C61EB267840096D9BA /* GoodViewController.swift in Sources */,
+				584999CE1EB26AFF0096D9BA /* GoodSecondViewController.swift in Sources */,
 				584999981EB193180096D9BA /* AppDelegate.swift in Sources */,
+				584999CC1EB26AEA0096D9BA /* GoodFirstViewController.swift in Sources */,
+				584999CA1EB267B30096D9BA /* DadViewController.swift in Sources */,
+				584999D41EB26B520096D9BA /* DadFirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
