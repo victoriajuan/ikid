@@ -9,7 +9,6 @@
 import UIKit
 
 class PunViewController: UIViewController {
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +20,6 @@ class PunViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
     
     var firstViewController : PunFirstViewController!
     var secondViewController : PunSecondViewController!

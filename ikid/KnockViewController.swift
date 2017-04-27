@@ -20,7 +20,6 @@ class KnockViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     var firstViewController : KnockFirstViewController!
     var secondViewController : KnockSecondViewController!

@@ -9,7 +9,6 @@
 import UIKit
 
 class GoodViewController: UIViewController {
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +20,6 @@ class GoodViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     var firstViewController : GoodFirstViewController!
     var secondViewController : GoodSecondViewController!
