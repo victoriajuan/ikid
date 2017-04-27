@@ -23,6 +23,11 @@
 		584999D21EB26B1D0096D9BA /* PunSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999D11EB26B1D0096D9BA /* PunSecondViewController.swift */; };
 		584999D41EB26B520096D9BA /* DadFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999D31EB26B520096D9BA /* DadFirstViewController.swift */; };
 		584999D61EB26B6A0096D9BA /* DadSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999D51EB26B6A0096D9BA /* DadSecondViewController.swift */; };
+		584999D81EB280A80096D9BA /* KnockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999D71EB280A80096D9BA /* KnockViewController.swift */; };
+		584999DA1EB280B60096D9BA /* KnockFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999D91EB280B60096D9BA /* KnockFirstViewController.swift */; };
+		584999DC1EB280C30096D9BA /* KnockSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999DB1EB280C30096D9BA /* KnockSecondViewController.swift */; };
+		584999DE1EB280CF0096D9BA /* KnockThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999DD1EB280CF0096D9BA /* KnockThirdViewController.swift */; };
+		584999E01EB280DF0096D9BA /* KnockFourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584999DF1EB280DF0096D9BA /* KnockFourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,11 @@
 		584999D11EB26B1D0096D9BA /* PunSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PunSecondViewController.swift; sourceTree = "<group>"; };
 		584999D31EB26B520096D9BA /* DadFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadFirstViewController.swift; sourceTree = "<group>"; };
 		584999D51EB26B6A0096D9BA /* DadSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DadSecondViewController.swift; sourceTree = "<group>"; };
+		584999D71EB280A80096D9BA /* KnockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockViewController.swift; sourceTree = "<group>"; };
+		584999D91EB280B60096D9BA /* KnockFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockFirstViewController.swift; sourceTree = "<group>"; };
+		584999DB1EB280C30096D9BA /* KnockSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockSecondViewController.swift; sourceTree = "<group>"; };
+		584999DD1EB280CF0096D9BA /* KnockThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockThirdViewController.swift; sourceTree = "<group>"; };
+		584999DF1EB280DF0096D9BA /* KnockFourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnockFourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +128,11 @@
 				584999971EB193180096D9BA /* AppDelegate.swift */,
 				584999991EB193180096D9BA /* ViewController.swift */,
 				5849999B1EB193180096D9BA /* Main.storyboard */,
+				584999D71EB280A80096D9BA /* KnockViewController.swift */,
+				584999D91EB280B60096D9BA /* KnockFirstViewController.swift */,
+				584999DB1EB280C30096D9BA /* KnockSecondViewController.swift */,
+				584999DD1EB280CF0096D9BA /* KnockThirdViewController.swift */,
+				584999DF1EB280DF0096D9BA /* KnockFourthViewController.swift */,
 				5849999E1EB193180096D9BA /* Assets.xcassets */,
 				584999A01EB193180096D9BA /* LaunchScreen.storyboard */,
 				584999A31EB193180096D9BA /* Info.plist */,
@@ -289,11 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				584999DA1EB280B60096D9BA /* KnockFirstViewController.swift in Sources */,
+				584999DE1EB280CF0096D9BA /* KnockThirdViewController.swift in Sources */,
 				584999D21EB26B1D0096D9BA /* PunSecondViewController.swift in Sources */,
+				584999D81EB280A80096D9BA /* KnockViewController.swift in Sources */,
 				584999C81EB267A50096D9BA /* PunViewController.swift in Sources */,
 				584999D01EB26B0F0096D9BA /* PunFirstViewController.swift in Sources */,
 				5849999A1EB193180096D9BA /* ViewController.swift in Sources */,
+				584999E01EB280DF0096D9BA /* KnockFourthViewController.swift in Sources */,
 				584999D61EB26B6A0096D9BA /* DadSecondViewController.swift in Sources */,
+				584999DC1EB280C30096D9BA /* KnockSecondViewController.swift in Sources */,
 				584999C61EB267840096D9BA /* GoodViewController.swift in Sources */,
 				584999CE1EB26AFF0096D9BA /* GoodSecondViewController.swift in Sources */,
 				584999981EB193180096D9BA /* AppDelegate.swift in Sources */,

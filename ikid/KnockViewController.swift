@@ -1,5 +1,5 @@
 //
-//  GoodViewController.swift
+//  KnockViewController.swift
 //  ikid
 //
 //  Created by Vicky Juan on 4/27/17.
@@ -8,8 +8,7 @@
 
 import UIKit
 
-class GoodViewController: UIViewController {
-    
+class KnockViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,29 +22,49 @@ class GoodViewController: UIViewController {
     }
     
 
-    var firstViewController : GoodFirstViewController!
-    var secondViewController : GoodSecondViewController!
+    var firstViewController : KnockFirstViewController!
+    var secondViewController : KnockSecondViewController!
+    var thirdViewController : KnockThirdViewController!
+    var fourthViewController : KnockFourthViewController!
     
     fileprivate func firstBuilder() {
         if firstViewController == nil {
             firstViewController =
                 storyboard?
-                    .instantiateViewController(withIdentifier: "First")
-                as! GoodFirstViewController
+                    .instantiateViewController(withIdentifier: "Seventh")
+                as! KnockFirstViewController
         }
     }
     fileprivate func secondBuilder() {
         if secondViewController == nil {
             secondViewController =
                 storyboard?
-                    .instantiateViewController(withIdentifier: "Second")
-                as! GoodSecondViewController
+                    .instantiateViewController(withIdentifier: "Eighth")
+                as! KnockSecondViewController
         }
     }
-    
+    fileprivate func thirdBuilder() {
+        if thirdViewController == nil {
+            thirdViewController =
+                storyboard?
+                    .instantiateViewController(withIdentifier: "Ninth")
+                as! KnockThirdViewController
+        }
+    }
+    fileprivate func fourthBuilder() {
+        if fourthViewController == nil {
+            fourthViewController =
+                storyboard?
+                    .instantiateViewController(withIdentifier: "Tenth")
+                as! KnockFourthViewController
+        }
+    }
+
     @IBAction func switchViews(_ sender: Any) {
         secondBuilder()
         firstBuilder()
+        thirdBuilder()
+        fourthBuilder()
         
         UIView.beginAnimations("View Flip", context: nil)
         UIView.setAnimationDuration(0.4)
@@ -56,10 +75,20 @@ class GoodViewController: UIViewController {
             UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
             secondViewController.view.frame = view.frame
             switchViewController(firstViewController, to: secondViewController)
-        } else {
+        } else if secondViewController != nil &&
+            secondViewController?.view.superview != nil{
+            UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
+            thirdViewController.view.frame = view.frame
+            switchViewController(secondViewController, to: thirdViewController)
+        }else if thirdViewController != nil &&
+            thirdViewController?.view.superview != nil{
+            UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
+            fourthViewController.view.frame = view.frame
+            switchViewController(thirdViewController, to: fourthViewController)
+        }else {
             UIView.setAnimationTransition(.flipFromRight, for: view, cache: true)
             firstViewController.view.frame = view.frame
-            switchViewController(secondViewController, to: firstViewController)
+            switchViewController(fourthViewController, to: firstViewController)
         }
         UIView.commitAnimations()
     }
@@ -77,5 +106,6 @@ class GoodViewController: UIViewController {
             to!.didMove(toParentViewController: self)
         }
     }
+
 
 }

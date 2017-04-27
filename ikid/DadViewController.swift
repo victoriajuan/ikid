@@ -22,11 +22,6 @@ class DadViewController: UIViewController {
     }
     
 
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        firstViewController = nil;
-        secondViewController = nil;
-    }
     var firstViewController : DadFirstViewController!
     var secondViewController : DadSecondViewController!
     

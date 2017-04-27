@@ -23,11 +23,6 @@ class PunViewController: UIViewController {
     }
     
     
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        firstViewController = nil;
-        secondViewController = nil;
-    }
     var firstViewController : PunFirstViewController!
     var secondViewController : PunSecondViewController!
     
