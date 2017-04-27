@@ -135,7 +135,7 @@
         <!--Good Second View Controller-->
         <scene sceneID="cxz-4G-PNa">
             <objects>
-                <viewController restorationIdentifier="Second" storyboardIdentifier="Second" id="y5O-mG-FhT" customClass="GoodSecondViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Second" storyboardIdentifier="Second" id="y5O-mG-FhT" customClass="GoodSecondViewController" customModule="ikid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zS5-jD-EA5"/>
                         <viewControllerLayoutGuide type="bottom" id="Ur6-ge-p64"/>
